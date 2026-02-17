@@ -1,0 +1,11 @@
+lumibot
+TA-Lib
+pandas
+numpy
+python-dotenv
+
+# Development dependencies
+pytest>=7.4.0
+black>=24.1.0
+flake8>=7.0.0
+pre-commit>=3.5.0

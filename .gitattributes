@@ -1,0 +1,12 @@
+# Handle line endings automatically for files detected as text
+# and leave binary files (like images) alone.
+* text=auto
+
+# Explicitly declare files to always use LF on checkin
+# and be converted to native endings on checkout.
+*.json text
+*.js   text
+*.py   text
+
+# Ensure shell scripts always use LF (Windows CRLF breaks them)
+*.sh eol=lf
